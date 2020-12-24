@@ -1,6 +1,10 @@
 # fraze-vue
 
-> Fraze game built with Vue.js and Webpack
+Fraze is a clone of the popular hand-held game [Catchphrase](https://shop.hasbro.com/en-us/product/catch-phrase-game:2C79D3B5-5056-9047-F535-614A0B4DE1C0), where two teams alternate guessing the word shown on the screen and the team _not_ guessing when the timer runs out wins a point.
+
+This game is built with Vue.js and queries the [Wordnik](https://www.wordnik.com/) API for random idioms.
+
+See live app at https://fraze-vue.herokuapp.com.
 
 ## Build Setup
 
@@ -28,5 +32,3 @@ npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-
-Note: Wordnik API key set as env var on Heroku (heroku config:set ...)
